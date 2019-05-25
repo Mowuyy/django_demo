@@ -1,0 +1,8 @@
+1、问题描述：postman如何向后台发送json数据
+   解决：https://blog.csdn.net/qq_36350532/article/details/80318091
+
+2、问题描述：postman发送put请求，后台数据未更新
+   原因：Django后台接收请求事会自动301跳转至加上 / 路径
+   解决：发送请求时，路径最后带上 / 即可
+
+
